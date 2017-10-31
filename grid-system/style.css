@@ -2,3 +2,6 @@ div[class^="col-"] {
     border: 1px solid black;
     height: 200px;
 }
+i{
+    font-size: 35px;
+}
