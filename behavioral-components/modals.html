@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Modals</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <textarea name="textuuuu" id="text1" cols="100%" rows="20vh" title="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi at blanditiis delectus, eveniet explicabo fuga in, ipsum laboriosam laudantium magnam officia, quia voluptate? Amet animi assumenda enim et laborum.</textarea>
+        </div>
+
+        <button type="button" class="btn btn-danger btn-lg"
+                data-toggle="modal" data-target="#mymodal">Save changes</button>
+
+        <div class="modal fade" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                        <h3 class="modal-title">Now you have to make a life changing decision...</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p>Are you sure you want to save these changes?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Absolutely NOT!</button>
+                        <button type="button" class="btn btn-success">Of course!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-4">
+                <a href="#img1modal" data-toggle="modal"><img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive"></a>
+                <div class="modal fade" id="img1modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-4">
+                <a href="#img2modal" data-toggle="modal"><img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive"></a>
+                <div class="modal fade" id="img2modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-4">
+                <a href="#img3modal" data-toggle="modal"><img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive"></a>
+                <div class="modal fade" id="img3modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <img src="http://via.placeholder.com/1200x600" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
